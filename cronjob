@@ -1,0 +1,6 @@
+#!/bin/bash
+
+LOG_FILE=/home/root/check-connectivity/check-connectivity.log
+
+date -u >> $LOG_FILE
+/home/root/check-connectivity/main.sh >> $LOG_FILE 
